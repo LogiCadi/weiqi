@@ -1,0 +1,203 @@
+@import "../../style/weui.css";
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    overflow: hidden;
+}
+.page__hd {
+    padding: 40px;
+}
+.page__bd {
+    padding-bottom: 40px;
+}
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page__ft{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.page__title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page__desc {
+    margin-top: 5px;
+    color: #888888;
+    text-align: left;
+    font-size: 14px;
+}
+.view_center{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-dialog {
+  width: 540rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 9999;
+  background: #b5a9a3;
+  margin: -180rpx 105rpx;
+  border-radius: 36rpx;
+}
+
+.modal-title {
+  padding-top: 50rpx;
+  font-size: 36rpx;
+  color: #030303;
+  text-align: center;
+}
+
+.modal-content {
+  padding: 50rpx 32rpx;
+}
+
+.modal-input {
+  display: flex;
+  background: #fff;
+  border: 2rpx solid #ddd;
+  border-radius: 4rpx;
+  font-size: 28rpx;
+}
+
+
+.input {
+  width: 100%;
+  height: 82rpx;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  color: #333;
+}
+
+input-holder {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  height: 86rpx;
+  border-top: 1px solid #dedede;
+  font-size: 34rpx;
+  line-height: 86rpx;
+}
+
+.btn-cancel {
+  width: 50%;
+  color: #666;
+  text-align: center;
+  border-right: 1px solid #dedede;
+}
+
+.btn-confirm {
+  width: 50%;
+  color: #ec5300;
+  text-align: center;
+}
+page{
+  height: 100%;
+}
+.view{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.window{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.window-2{
+  display: flex;
+  flex-direction: row;
+}
+
+.previewimage{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  mode: widthFix;
+}
+
+.camera{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.suqare_select{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cover-0{
+  color: red;
+  overflow-wrap: break-word;
+}
+.cover-1{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+}
+ 
+.cover-2{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 150rpx;
+  background-color: #dedcdc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 60rpx;
+  left: 300rpx;
+}
+.cover-3{
+  position: absolute;
+  bottom: 105rpx;
+  left:135rpx;
+}
+.cover-9{
+  width: 728rpx;
+  height: 80%;
+  margin: 0 10rpx;
+  border:2rpx solid;
+  border-radius:5px;  
+}
+button{
+  margin: 0 10rpx;
+  width: 100%;
+}
+.cover-4{
+  position: absolute;
+}
+.cover-2{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 110rpx;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:#da2121;
+  font-size: 32rpx;
+}
